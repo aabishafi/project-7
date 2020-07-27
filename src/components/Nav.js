@@ -9,18 +9,18 @@ const Nav = () => {
         <
         li >
         <
-        NavLink to = "/mountains" > Mountains < /NavLink> <
-        /li> <
+        NavLink to = "/mountains" > Mountains < /NavLink> < /
+        li > <
         li >
         <
-        NavLink to = "/dogs" > Dogs < /NavLink> <
-        /li> <
+        NavLink to = "/dogs" > Dogs < /NavLink> < /
+        li > <
         li >
         <
-        NavLink to = "/sunset" > Sunset < /NavLink> <
-        /li> <
-        /ul> <
-        /nav>
+        NavLink to = "/sunset" > Sunset < /NavLink> < /
+        li > <
+        /ul> < /
+        nav >
     );
 };
 

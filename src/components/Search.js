@@ -28,7 +28,8 @@ class Search extends Component {
             name = "Search"
             placeholder = "Search"
             ref = {
-                (input) => (this.search = input) }
+                (input) => (this.search = input)
+            }
             required autoFocus /
             >
             <
@@ -46,8 +47,8 @@ class Search extends Component {
             path d = "M0 0h24v24H0z"
             fill = "none" / >
             <
-            /svg> <
-            /button> <
+            /svg> < /
+            button > <
             /form>
         );
     }

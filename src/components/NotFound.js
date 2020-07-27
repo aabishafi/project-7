@@ -5,8 +5,8 @@ const NotFound = () => {
     return ( <
         li className = "not-found" >
         <
-        h3 > The page your requested does not exist < /h3> <
-        /li>
+        h3 > The page your requested does not exist < /h3> < /
+        li >
     );
 };
 

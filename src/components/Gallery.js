@@ -31,13 +31,10 @@ const Gallery = ({ pictures, query }) => {
         searchWord = "";
     }
 
-    return ( <
-        div className = "photo-container" > { /* Render image results header */ } <
+    return ( < div className = "photo-container" > { /* Render image results header */ } <
         h2 > { searchWord } < /h2>
 
-        { /* Render images */ } <
-        ul > { pics } < /ul> < /
-        div >
+        { /* Render images */ } < ul > { pics } < /ul> </div >
     );
 };
 

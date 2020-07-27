@@ -8,8 +8,8 @@ const NoPics = () => {
         h3 > No Results Found < /h3> <
         p > Your search did not
         return any results.Please
-        try again. < /p> <
-        /li>
+        try again. < /p> < /
+        li >
     );
 };
 
