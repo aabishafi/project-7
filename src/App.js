@@ -75,7 +75,8 @@ class App extends Component {
             Switch > { /* Redirect root path to /mountains */ } <
             Route exact path = "/"
             render = {
-                () => < Redirect to = "/mountains" / > }
+                () => < Redirect to = "/mountains" / >
+            }
             />
 
             <
@@ -130,10 +131,10 @@ class App extends Component {
 
             { /* Route for 404 error */ } <
             Route component = { NotFound }
-            /> <
-            /Switch> <
-            /div> <
-            /BrowserRouter>
+            /> < /
+            Switch > <
+            /div> < /
+            BrowserRouter >
         );
     }
 }
